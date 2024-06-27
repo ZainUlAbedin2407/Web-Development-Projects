@@ -1,0 +1,78 @@
+body{
+    background-color:silver
+}
+
+td{
+    width: 50px;
+}
+
+.number{
+    line-height: 0px;
+    text-align: center;
+    font-size:xx-small;
+    font-weight: bolder;
+}
+
+.letter{
+    line-height: 0px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.name{
+    font-size: xx-small;
+    line-height: 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.category1{
+    background-color: rgb(242, 186, 111);
+}
+
+.category2{
+    background-color: rgb(250, 65, 74);
+}
+
+.category3{
+    background-color: rgb(240, 132, 227);
+
+}
+
+.category4{
+    background-color: rgb(121, 210, 212);
+
+}
+
+.category5{
+    background-color: rgb(133, 56, 127);
+}
+
+.category6{
+    background-color: rgb(242, 235, 141);
+}
+
+.category7{
+    background-color: rgb(252, 152, 116);
+}
+
+.category8{
+    background-color: rgb(84, 102, 140);
+}
+
+.category9{
+    background-color: rgb(105, 54, 105);
+}
+
+.category10{
+    background-color: rgb(50, 160, 179);
+}
+
+.heading{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 50px;
+    color: darkslategrey;
+}

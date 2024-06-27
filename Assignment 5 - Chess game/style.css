@@ -1,0 +1,33 @@
+td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle; /*not effect on browser*/
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.category1 {
+    background-color: rgb(242, 242, 242);
+}
+
+.category2 {
+    background-color: rgb(147, 139, 146);
+}
+
+p {
+    font-size: 70px; /* Increase font size to make icons larger */
+    line-height: 90px; /* Ensure text is vertically centered */
+    margin: 0; /* Remove default margin */
+    transform: scale(1.2); /* Scale the icons to make them larger */
+}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse; /* Ensure no gaps between cells */
+    border: 5px solid black;
+}
+
+body{
+   margin-bottom: 10%;
+}
+

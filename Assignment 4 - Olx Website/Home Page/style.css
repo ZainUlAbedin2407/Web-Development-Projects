@@ -1,0 +1,147 @@
+body{
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.motor {
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.motor:hover{
+    color: blue;
+}
+
+.property {
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.property:hover{
+    color: blue;
+}
+
+
+#location {
+  margin-left: 10px;
+  height: 50px;
+  width: 302px;
+  border: 2px solid;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#searchbar {
+  margin-left: 10px;
+  text-align: center;
+}
+
+#searchbar input {
+  width: 800px; /* 276px + 56px */
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px; /* Adjust font size if needed */
+  padding: 10px; /* Optional: add padding for better aesthetics */
+  box-sizing: border-box; /* Ensure padding is included in width and height */
+  border: 2px solid;
+}
+
+#container {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  padding: 10px;
+}
+
+#login {
+  margin-left: 29px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login:hover{
+    text-decoration: none;
+}
+
+.sell {
+  margin-left: 20px;
+}
+
+.sections a{
+    text-decoration: none;
+    padding: 10px ;
+    color: rgb(41, 40, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.sections a:hover{
+    color: rgb(132, 206, 255);
+}
+
+.add a img{
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 10px ;
+    align-items: center;
+    display: inline-block;
+}
+
+.add2 a img{
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 10px ;
+    align-items: center;
+    display: inline-block;
+}
+
+.categories{
+    margin-top: 20px;
+    padding: 10px;    
+}
+
+.categories span{
+    font-size: 25px;
+    font-weight: bold;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.options{
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.options a{
+    padding: 15px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+
+.options a img{
+    height: 100px;
+    width: 100px;
+}
+
+.applogo{
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 100px;
+}
