@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header title */
+
+.maindiv-header {
+    height: 64px;
+    padding: 8px 15px;
+}
+
+#Main-Title{
+    height: 20px;
+    color: #721c24;
+    font-weight: 700;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title-description{
+    color: #721c24;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+/* Headerbg */
+
+.bg-image {
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.Imagebg {
+    height: 100%;
+    opacity: .1;
+    width: 80%;
+    padding-right: 40px;
+}
+
+.fb-logo {
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    top: 70%; 
+    left: 14%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1; /* ye filhal koi effect nh kr rha h browser per lekin infuture iski zrurt pr skti h */
+}
+
+.inst-logo {
+        width: 30px;
+        height: 30px;
+        position: absolute; 
+        top: 70%; 
+        left: 18%; 
+        transform: translate(-50%, -50%); /* Center the logo */
+        z-index: 1;
+}
+
+.yt-logo {
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    top: 70%; 
+    left: 22%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1;
+}
+
+.Saylani-logo {
+    width: 20%;
+    height: 75px;
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1;
+}
+
+.register {
+    width: 31%;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-portal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 143px;
+    height: 32px;
+    position: absolute; 
+    top: 70%; 
+    right: 10%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1;
+    color: #0d6db7;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #0d6db7;
+    cursor: pointer;
+}
+
+.btn-portal:hover {
+    background-color: white;
+} 
+
+.std-ed-reg {
+    width: 30%;
+    position: absolute; 
+    top: 85%; 
+    left: 56%; 
+    transform: translate(-50%, -50%); /* Center the logo */
+    z-index: 1;
+    color: grey;
+    font-size: 0.85em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Options */
+
+.options{
+    display: flex;
+    justify-content: center  ;
+    align-items: center;    
+    width: 100%;
+    height: 40px;
+}
+
+.options a{
+    text-decoration: none;
+    background-color: #fafafa;    
+    margin: 0px 20px;
+    color: #0d6db7;
+}
+
+.options a:active{
+    color: #8dc635;
+    border: 2px solid white;
+    background-color: #ffffff;
+}
+
+/* Partician */
+
+.partician {
+    background-color: rgb(241, 241, 241);
+    height: 0.1px;
+    width: 80%;
+    display: flex;
+    margin-left: 11%;
+    margin-top: 0%;
+}
+
+/***** Header end ********/
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 77px; */
+}
+
+.form-choices{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px 5px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    color: #0d6db7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select , input{
+    width: 90%;
+    height: 54px;
+    font-size: 14px;
+    padding: 10px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #8dc63f;
+    border-radius: 4px;
+    size: 50px;
+    outline: none; /* not much effect on browser*/
+}
+
+.Address{
+    display: flex;
+    flex-direction: column;
+    width: 79.5%;
+    margin-left: 168px;
+    margin-top: 10px;
+}
+
+.Last-qualification , .Laptop{
+    display: flex;
+    flex-direction: column;
+    width: 79.5%;
+    margin-left: 168px;
+    margin-top: 20px;
+}
+
+/* Increase the font size for the options */
+select option {
+    font-size: 17px;
+}
+
+input:focus, input:active, input:focus-within, select:focus, select:active, select:focus-within {
+    border-color: #0d6db7 !important;
+    outline: none !important; /* Ensures no default outline */
+    color: black;
+    font-weight: 500;
+}
+
+.Picture{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 167px;
+        margin-top: 10px;
+        position: absolute; 
+        left: 0; 
+}
+
+.custom-file-upload {
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+    background-color: #f0f0f0; /*Background color*/
+    border: 1px dashed gray; /* Dashed border */
+    border-radius: 4px;
+    text-align: center;
+    line-height: 112px;
+    color: grey;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-instructions {
+    list-style-type: none; /* Remove bullets */
+    margin: 35px 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+}
+
+.upload-instructions li{
+    margin-bottom: 4px;
+}
+
+.partician1 {
+    background-color: rgb(241, 241, 241);
+    height: 0.2px;
+    width: 80%;
+    /* display: block; */
+    margin-left: 11%;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.last-instruct{
+    margin: 185px 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+}
+
+.last-instruct li {
+    margin-bottom: 4px;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 70%;
+    margin: 350px 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: #0d6db7;
+    color: white;
+    border-color: #0d6db7;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+/* Download and result page */
+
+.CNIC-download , .rollNumber {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 400px;
+    margin-top: 10px;
+    /* align-items: center;  */
+}
+
+.btn-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 36%;
+    margin: 90px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: #0d6db7;
+    color: white;
+    border-color: #0d6db7;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 36%;
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: #0d6db7;
+    color: white;
+    border-color: #0d6db7;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Record page */
+.maindiv-header {
+    height: 64px;
+    padding: 8px 15px;
+}
+
+#Main-Title{
+    height: 20px;
+    color: #721c24;
+    font-weight: 700;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
