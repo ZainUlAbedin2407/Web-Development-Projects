@@ -8,7 +8,7 @@ body{
     background-color: #f1f2f6;
 }
 
-.post{
+.post, .post2, .post3{
     width: 1000px;
     height: 1300px;
     background-color: white;
@@ -256,6 +256,10 @@ body{
 
 .post-img2{
     background-image: url(./pic2.png);
+}
+
+.post3{
+    height: 1350px;
 }
 
 .post-img3{
